@@ -15,7 +15,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from gta4xlwifi device
 $(call inherit-product, device/samsung/gta4xlwifi/device.mk)
 
-#device indentifier
 PRODUCT_DEVICE := gta4xlwifi
 PRODUCT_NAME := omni_gta4xlwifi
 PRODUCT_BRAND := samsung

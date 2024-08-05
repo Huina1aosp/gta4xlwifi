@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Release name
+PRODUCT_RELEASE_NAME := gta4xlwifi
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -15,6 +18,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from gta4xlwifi device
 $(call inherit-product, device/samsung/gta4xlwifi/device.mk)
 
+## device identifier
 PRODUCT_DEVICE := gta4xlwifi
 PRODUCT_NAME := twrp_gta4xlwifi
 PRODUCT_BRAND := samsung

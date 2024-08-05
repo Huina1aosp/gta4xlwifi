@@ -8,4 +8,3 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
-gta4xlwifi twrp building test
